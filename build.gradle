@@ -13,6 +13,7 @@ apply plugin: 'walle'
 apply from: secret
 
 apply from: 'andresguard.gradle'
+apply from: 'bytex.gradle'
 apply from: 'redex.gradle'
 
 android {
